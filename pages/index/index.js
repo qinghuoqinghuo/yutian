@@ -123,6 +123,12 @@ Page({
     }
   },
   data: {
+    markers: [{
+      latitude: 39.8867388186,
+      longitude: 117.8222751617,
+      name: '王进朝',
+      desc: '家的位置'
+    }],
     ec: {
       onInit: initChart
     }

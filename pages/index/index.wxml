@@ -1,4 +1,17 @@
 <!--index.wxml-->
 <view class="container">
+
+<map
+id="myMap"
+style="width: 100%; height: 300px;"
+longitude="117.8222751617" 
+latitude="39.8867388186"
+scale='8'
+subkey="AVABZ-EIPWP-7RTDK-L6UQ3-SHYET-V5B6V"
+show-location="true"
+enable-traffic="true"
+show-compass="true"
+markers="{{markers}}"
+></map>
   <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
 </view>
